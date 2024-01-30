@@ -1,9 +1,11 @@
-import Vote from './FeedBack/Feedback';
+import FormName from './MyContacts/FormMain/Form';
+import Contacts from './MyContacts/Contacts/Contacts';
 
 export const App = () => {
   return (
     <>
-      <Vote />
+      <FormName />
+      <Contacts />
     </>
   );
 };
